@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.upload.UploadActivity">
+    <ImageView
+        android:id="@+id/img_preview"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/add_image"
+        android:src="@drawable/ic_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginStart="7dp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/toolbar_color"
+        android:text="@string/camera"
+        android:textAllCaps="false"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Rounded"
+        app:shapeAppearance="@style/ShapeAppearance.Rounded"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@id/btn_gallery"
+        app:layout_constraintStart_toStartOf="@+id/img_preview"
+        app:layout_constraintTop_toBottomOf="@+id/img_preview" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btn_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="@color/toolbar_color"
+        android:text="@string/gallery"
+        android:textAllCaps="false"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Rounded"
+        app:shapeAppearance="@style/ShapeAppearance.Rounded"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_camera"
+        app:layout_constraintEnd_toEndOf="@+id/img_preview"
+        app:layout_constraintStart_toEndOf="@+id/btn_camera"
+        app:layout_constraintTop_toTopOf="@+id/btn_camera" />
+
+
+    <EditText
+        android:id="@+id/add_description"
+        android:layout_width="322dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="56dp"
+        android:gravity="start"
+        android:hint="@string/description"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:padding="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_upload"
+        app:layout_constraintEnd_toEndOf="@+id/btn_gallery"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/btn_camera"
+        app:layout_constraintTop_toBottomOf="@+id/btn_camera"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/toolbar_color"
+        android:text="@string/upload"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_upload"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/add_description"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/add_description" />
+
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

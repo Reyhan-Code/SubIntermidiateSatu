@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+
+    <string name="signup">Sing Up</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Want to learn Android, iOS, Machine Learning, Cloud, Front-End, Back-End, and other IT fields? Just code it!</string>
+    <string name="title_welcome_page">Welcome to Dicoding!</string>
+    <string name="title_signup_page">Complete your data below</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Enter your data first!</string>
+    <string name="title_login_page">Are you ready to upgrade your skills?</string>
+    <string name="name">Name</string>
+    <string name="message_main_page">Welcome To Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Log Out</string>
+    <string name="story_upload">Upload Story</string>
+    <string name="change_language">Change language</string>
+    <string name="tombol_logout">Logout</string>
+    <string name="retry">refresh</string>
+    <string name="description">Description</string>
+    <string name="add_image">add image</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="empty_image_warning">404 Image Not Found</string>
+    <string name="by_reyhan_afif_fahri">By Reyhan Afif Fahri</string>
+    <string name="upload_success">Upload Succes</string>
+    <string name="upload_failed">Upload Failed</string>
+
+</resources>

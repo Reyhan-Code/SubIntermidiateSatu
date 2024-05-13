@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Ingin mempelajari bidang Android, iOS, Machine Learning, Cloud, Front-End, Back-End, dan bidang IT lainnya? Dicoding Aja!</string>
+    <string name="title_welcome_page">Selamat Datang di Dicoding!</string>
+    <string name="title_signup_page">Lengkapi data Anda di bawah ini</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan data Anda terlebih dahulu!</string>
+    <string name="title_login_page">Apakah Anda siap untuk meningkatkan skill Anda?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat datang di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="story_upload">Unggah Story</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="tombol_logout">Keluar</string>
+    <string name="retry">refresh</string>
+    <string name="description">Deskripsi</string>
+    <string name="add_image">Tambah Gambar</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Unggah</string>
+    <string name="empty_image_warning">404 Gambar Tidak ditemukan</string>
+    <string name="by_reyhan_afif_fahri">Dibuat Reyhan Afif Fahri</string>
+    <string name="upload_success">Upload Berhasil</string>
+    <string name="upload_failed">Upload gagal</string>
+</resources>
